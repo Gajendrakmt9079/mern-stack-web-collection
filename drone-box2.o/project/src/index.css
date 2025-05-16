@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+  
+}
+@font-face {
+    font-family: broken;
+    src: url(../public/BrokenGlass.otf);
+  }
+
+  .hading01{
+    background-image: linear-gradient(rgb(62, 62, 62), white);
+      color: transparent;
+      background-clip: text;
+      font-family: broken;
+  }
+
+
+  
+  @font-face {
+    font-family: broken;
+    src: url(../public/BrokenGlass.otf);
+  }
+  .k2box{
+  
+    background-image: linear-gradient(to left, rgb(188, 180, 180), rgb(33, 33, 33));
+    color: transparent;
+    background-clip: text;
+  }
+  .linarbg{
+    background: rgb(134,133,133);
+    background: linear-gradient(90deg, rgb(208, 215, 229) 1%, rgb(215, 213, 213) 58%, rgba(212,217,218,1) 100%);
+  
+  }
+  .backdroP{
+    background-image: url("../public/378.jpg");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  
+  }
+  .bbgforbtn{
+    background: rgb(134,133,133);
+    background: linear-gradient(90deg, rgb(115, 124, 145) 1%, rgb(244, 221, 221) 58%, rgb(97, 144, 153) 100%)
+  }

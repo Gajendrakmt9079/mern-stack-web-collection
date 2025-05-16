@@ -1,0 +1,36 @@
+{
+    "drones": [
+      {
+        "id": 1,
+        "img": "/shopproject3.webp",
+        "name": "SkyMaster X1",
+        "price": { "old": 499, "new": 399 }
+      },
+      {
+        "id": 2,
+        "img": "/shopproject2.webp",
+        "name": "AeroFlyer Pro",
+        "price": { "old": 599, "new": 499 }
+      },
+      {
+        "id": 3,
+        "img": "/shopproject3.webp",
+        "name": "Falcon Eye 4K",
+        "price": { "old": 699, "new": 599 }
+      },
+      {
+        "id": 4,
+        "img": "/shopproject4.webp",
+        "name": "HawkVision 360",
+        "price": { "old": 799, "new": 699 }
+      },
+      {
+        "id": 5,
+        "img": "/shopproject3.webp",
+        "name": "SkyRider Mini",
+        "price": { "old": 299, "new": 249 }
+      }
+  
+    ]
+  }
+  
